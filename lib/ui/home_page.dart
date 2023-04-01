@@ -125,10 +125,6 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-
-  List<Widget> assa() {
-    return [];
-  }
 }
 
 class DataWrite extends StatelessWidget {
