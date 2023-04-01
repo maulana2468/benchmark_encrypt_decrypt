@@ -69,7 +69,7 @@ class HomePageController extends GetxController {
         BenchmarkData("Test ${i + 1}", (sw2.elapsedMicroseconds / 1000.0)),
       );
 
-      await Future.delayed(const Duration(milliseconds: 250));
+      //await Future.delayed(const Duration(milliseconds: 250));
     }
 
     //* ================================ READ ================================
@@ -112,7 +112,7 @@ class HomePageController extends GetxController {
         BenchmarkData("Test ${i + 1}", (sw2.elapsedMicroseconds / 1000.0)),
       );
 
-      await Future.delayed(const Duration(milliseconds: 250));
+      //await Future.delayed(const Duration(milliseconds: 250));
     }
 
     debugPrint("\nWRITE: ");
